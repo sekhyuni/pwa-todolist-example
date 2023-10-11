@@ -1,0 +1,21 @@
+{
+  "name": "PWA todolist",
+  "short_name": "PWA todolist",
+  "description": "An todolist example of a Next.js PWA app",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon-nextjs.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-qanda.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
