@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container-input {
+  margin-left: 20px;
+}
+
+.container-input:first-of-type {
+  margin-left: 0;
+}
+
+.container-input > input {
+  height: 32px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.container-contents {
+  margin-top: 50px;
+}
+
+.contents {
+  margin-top: 50px;
+}
+
+.contents:first-of-type {
+  margin-top: 0;
+}
+
+.todo {
+  font-size: 24px;
+  color: red;
+}
+
+.completed {
+  font-size: 24px;
+  color: green;
+}
+
+.submit {
+  padding: 6px 10px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin-left: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: lightgray;
+}

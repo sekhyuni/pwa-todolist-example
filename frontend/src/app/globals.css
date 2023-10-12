@@ -1,0 +1,49 @@
+@import 'normalize.css';
+
+:root {
+  /* Color */
+  --black-01: #000000;
+  --black-02: #111111;
+  --black-03: #3a3634;
+  --light-gray-01: rgba(17, 17, 17, 0.5);
+  --light-gray-02: linear-gradient(#efebe4, #f2f2ef, #ebe8e5);
+  --warm-gray-01: #665c57;
+  --warm-gray-02: #78716e;
+  --warm-gray-03: #9a9492;
+  --warm-gray-04: #d4cecb;
+  --warm-gray-05: #f6f4f2;
+  --orange-01: #ff5500;
+  --orange-02: linear-gradient(to right, #ff3200, #ff6400);
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+/* ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+} */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
